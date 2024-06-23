@@ -1,0 +1,10 @@
+cursor = '_'
+blinking-cursor = true
+working-dir = "/Users/gustavo/"
+
+theme = "dracula"
+
+[fonts]
+size = 16
+
+shell = "/bin/zsh"
