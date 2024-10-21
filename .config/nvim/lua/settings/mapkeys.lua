@@ -39,6 +39,8 @@ keymap("v", "<A-Up>", ":m '<-2<CR>gv=gv")
 keymap("x", "<A-Up>", ":m-2<CR>gv=gv")
 keymap("x", "<A-k>", ":m-2<CR>gv=gv")
 
+keymap("n", "<C-j>", ":lua require('kulala').run()<CR>")
+
 
 -- lua/settings/mapkeys.lua
 

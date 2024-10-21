@@ -62,6 +62,14 @@ return {
         follow_current_file = {
           enabled = true,
         },
+        filtered_items = {
+          hide_dotfiles = true, --hide .someFolder/
+          hide_hidden = false,
+          sort_by = "name",
+        },
+        always_show_by_pattern = {
+          ".env*",
+        },
       },
       buffers = {
         follow_current_file = {
